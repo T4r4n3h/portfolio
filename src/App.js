@@ -6,7 +6,7 @@ import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className="bg-eggplant text-jasmine container mx-auto">
+    <div className="bg-eggplant  container mx-auto border border-cyan">
       <Header/>
     </div>
   );
