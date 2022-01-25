@@ -1,9 +1,13 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     colors:{
+      transparent: 'transparent',
+      current: 'currentColor',
       peach: '#FEC5B9',
       tangerine:'#FEC5B9',
       bgdrk:'#39354D',
