@@ -5,15 +5,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors:{
+    colors: {
       transparent: 'transparent',
       current: 'currentColor',
       peach: '#FEC5B9',
-      tangerine:'#FEC5B9',
+      tangerine:'#FE9881',
       bgdrk:'#39354D',
       eggplant:'#645E80',
       lavender:'#8A70FF',
-      iris: '#DEC4F4',
+      iris: '#DAB0F4',
       jasmine:'#E8D9F4',
       fuchsia:'#d946ef',
       rose:'#f43f5e',
@@ -24,7 +24,18 @@ module.exports = {
       
       
     },
-    extend: {},
+    extend: {
+     
+      width: {
+        '128': '32.62rem',
+      },
+      height: {
+        '130':'33.125rem'
+      }
+      // rotate:{
+      //   '175':'-15deg'
+      // },
+    },
   },
   plugins: [],
 }
