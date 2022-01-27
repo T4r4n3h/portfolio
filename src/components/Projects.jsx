@@ -1,7 +1,8 @@
 import React from 'react';
-import DownButton from './About/DownButton';
+import DownButton from './DownButton';
 import FeatureProject from './FeatureProject';
 import SideBarOne from './SideBarOne';
+import ProjectList from './ProjectList'
 
 
 const Projects = () => {
@@ -9,7 +10,7 @@ const Projects = () => {
   
     <div className="Projects  mt-20 md:mt-52 md:ml-24">
 
-        <h1 className="hOne"> &#60; Projects /> </h1>
+        <h1 className="hOne"> &#60; Projects /&gt; </h1>
 
         <SideBarOne/>
         <div className="md:flex">
@@ -24,7 +25,7 @@ const Projects = () => {
         </div>
         <FeatureProject/>
 
-       
+        <ProjectList/>
 
 
     </div>

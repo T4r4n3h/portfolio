@@ -13,7 +13,7 @@ const About = () => {
     <div className="Hero px-4 mt-6 md:mt-32  md:flex justify-between "> 
     
         <div className="msg  md:w-7/12 md:pr-8">
-        <h1 className="hOne"> &#60; About Me /> </h1>
+        <h1 className="hOne"> &#60; About Me /&gt; </h1>
 
         <SideBarOne/>
         <p 
@@ -48,7 +48,7 @@ const About = () => {
 
         </div>
 
-        <div className="border flex justify-center mt-16 md:mt-8">
+        <div className=" flex justify-center mt-16 md:mt-8">
         
             <div className={styles.myPic}></div>
         </div>

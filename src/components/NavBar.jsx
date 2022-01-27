@@ -15,11 +15,11 @@ const NavBar = () => {
       <div className="hidden md:contents font-medium ">
                   
           <ul className="flex">
-              <li className="mx-3"><Link to="/"> > Home</Link></li>
-              <li className="mx-3" ><Link to="/about"> > About</Link></li>
-              <li className="mx-3" ><Link to="/projects"> > Projects</Link></li>
-              <li className="mx-3" ><Link to="/CV"> > CV</Link></li>
-              <li className="mx-3" ><Link to="/blog"> > Blog</Link></li>
+              <li className="mx-3"><Link to="/"> &gt; Home</Link></li>
+              <li className="mx-3" ><Link to="/about"> &gt; About</Link></li>
+              <li className="mx-3" ><Link to="/projects"> &gt; Projects</Link></li>
+              <li className="mx-3" ><Link to="/CV"> &gt; CV</Link></li>
+              <li className="mx-3" ><Link to="/blog"> &gt; Blog</Link></li>
           </ul>
           
       </div>

@@ -16,8 +16,8 @@ const DownButton = () => {
                     </div>
                 </div>
                 <div className="text  w-18 h-20 mx-auto ">
-                    <p className="bodytwo text-center">Scroll</p>
-                    <p className="bodytwo text-center">down</p>
+                    <p className="bodyTwo text-center">Scroll</p>
+                    <p className="bodyTwo text-center">down</p>
                 </div>
 
 

@@ -4,16 +4,19 @@ import Projects from './components/Projects'
 
 //components
 import Header from './components/Header';
+import Contact from './components/Contact';
 
 
 const App = () => {
   return (
     <div className="container mx-auto">
-      <Header/>      
+      <Header />
       <About />
-      <Projects/>
-   
-    </div>
+      <Projects />
+      <Contact />
+
+
+      </div>
   );
 };
 

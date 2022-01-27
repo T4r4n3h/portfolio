@@ -31,7 +31,7 @@ module.exports = {
         '128': '32.62rem',
 
       },
-      height: {
+      height:{
         '13': '3.12rem',
         '129':'29.125rem',
         '130':'33.125rem',
