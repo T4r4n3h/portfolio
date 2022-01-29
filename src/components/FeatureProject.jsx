@@ -7,7 +7,7 @@ const FeatureProject = () => {
       <>
     <div
       className="hidden lg:flex
-      DskFeature container bg-eggplant  mt-11 mt-72 flex  w-full h-[524px] rounded border py-10 pl-28 relative"
+      DskFeature container bg-eggplant  mt-11 mt-72 flex  w-full h-[524px] py-10 pl-28 relative"
       style={{ boxShadow: " -5px 5px #8A70FF" }}
       >
       <div className="msg  w-3/5 h-[444px] ">

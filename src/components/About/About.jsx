@@ -2,19 +2,24 @@ import React from "react";
 import { motion } from "framer-motion";
 import styles from "./About.module.css";
 import SideBarOne from "../SideBarOne";
-import myPic from '../../assets/myPic.png'
+import myPic from "../../assets/myPic.png";
 
 const About = () => {
+
+  
+  
+
   return (
-    <div className=" component Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
+    <div className="  Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
       <motion.div
-      initial = {{x:'-100vw'}}
-       animate={{ x:'0' }}
-       transition={{ duration: 1 }}
-      className="msg  md:w-7/12 md:pr-8">
+        initial={{ x: "-100vw" }}
+        animate={{ x: "0" }}
+        transition={{ duration: 1 }}
+        className="msg  md:w-7/12 md:pr-8"
+      >
         <h1 className="hOne"> &#60; About Me /&gt; </h1>
 
-        <SideBarOne />
+        <SideBarOne height={'3200px'}/>
         <p className="bodyTwo  mt-6  md:mt-10 lg:ml-24 mb-3">
           Hi, I'm
           <span className="text-tangerine"> &#123;</span>
@@ -47,19 +52,20 @@ const About = () => {
         </div>
       </motion.div>
 
-      <motion.div 
-       initial = {{x:'100vw'}}
-       animate={{ x:'0' }}
-       transition={{ duration: 1 }}
-        className="myPic flex justify-center mt-16 lg:mt-8 relative border">
-       
-        <div className={styles.myPic}
-        style={{ 
-          backgroundImage:`url(${myPic})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat'
-      }}
+      <motion.div
+        initial={{ x: "100vw" }}
+        animate={{ x: "0" }}
+        transition={{ duration: 1 }}
+        className="myPic flex justify-center mt-16 lg:mt-8 relative"
+      >
+        <div
+          className={styles.myPic}
+          style={{
+            backgroundImage: `url(${myPic})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <div className="md:hidden w-48 h-60 mt-[-25px] bg-eggplant absolute -z-10 rotate-[25deg] origin-bottom-left"></div>
         </div>

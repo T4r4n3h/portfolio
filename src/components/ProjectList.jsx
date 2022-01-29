@@ -4,10 +4,12 @@ import ProjectItem from './ProjectItem';
 const ProjectList = () => {
   return (
   
-    <div className="projectList border md:flex flex-wrap  justify-between mt-48 md:grid-cols2">
+    <div className="projectList md:grid grid-cols-2 gap-10 mt-20 lg:mt-48">
        
 
 
+        <ProjectItem/>
+        <ProjectItem/>
         <ProjectItem/>
         <ProjectItem/>
         

@@ -4,7 +4,7 @@ import Background from '../../src/assets/innertuner.png'
 const FeatureMbl = () => {
   return (
     <>
-      <div className="Featuremobile border border-rose mt-16">
+      <div className="Featuremobile  lg:hidden mt-16">
         <div className="msg  ">
           <h2 className="bodyTwo"> &#60; INNERTUNER /&gt;</h2>
           <p className="bodyOne  mt-5">
@@ -21,7 +21,7 @@ const FeatureMbl = () => {
           <button className=" btn mt-8">Learn More &gt;</button>
         </div>
 
-            <div className="cover block  flex justify-center">
+            <div className="cover block flex justify-center  mt-10">
                 <div className="w-[215px] h-[466px]"
                  style={{ 
                     backgroundImage:`url(${Background})`,

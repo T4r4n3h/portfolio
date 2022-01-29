@@ -1,13 +1,7 @@
 .myPic{
-    /* background-image: url('../../assets/myPic.JPG');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    width:13.43rem;
-    height:13.56rem;
-    border: 1px solid;
-
     
+    width:13.43rem;
+    height:13.56rem; 
     box-shadow: 10px 10px #DAB0F4;
   }
 

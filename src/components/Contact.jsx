@@ -2,14 +2,13 @@ import React from "react";
 import SideBarOne from "./SideBarOne";
 import Logo from "../assets/Logo-peach.png";
 
-
 const Contact = () => {
   return (
-    <div className="Contact Component  mt-20 md:mt-52 md:ml-44 border border-green">
+    <div className="Contact Component  mt-20 md:mt-52 md:ml-64">
       <h1 className="hOne"> &#60; Contact /&gt; </h1>
       <SideBarOne />
-      <div className="main md:flex border md:ml-10 md:mr-36 md:mt-20">
-        <div className="left border border-tangerine  md:w-128">
+      <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20">
+        <div className="left md:w-128">
           <p className="text-iris leading-8 text-lg font-medium md:text-2xl md:leading-10  ">
             Let's
             <span className="text-tangerine"> &#123; Get In Touch &#125;</span>
@@ -19,7 +18,7 @@ const Contact = () => {
             please send mem a message and i will get back to you as soon
           </p>
 
-          <button className="border-[3px] border-tangerine text-peach text-xl p-4 mt-10">
+          <button className="border-[3px] text-peach text-xl p-4 mt-10">
             Send me an email &gt;
           </button>
 
@@ -32,7 +31,6 @@ const Contact = () => {
                   verticalAlign: "middle",
                   fill: "currentColor",
                   overflow: "hidden",
-                  
                 }}
                 xmlns="http://www.w3.org/2000/svg"
                 enable-background="new 0 0 24 24"
@@ -58,7 +56,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="right border md:h-32 md:w-[359px] md:my-24 ml-10 ">
+        <div className="right md:h-32 md:w-[359px] md:my-24 ml-10 ">
           <img className="md:mt-12 mx-auto" src={Logo} alt="" />
         </div>
       </div>

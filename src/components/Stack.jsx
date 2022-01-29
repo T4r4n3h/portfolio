@@ -4,15 +4,15 @@ const Stack = () => {
   return (
   
   
-  <div className="Stack text-tangerine mt-8">
+  <div className="Stack text-tangerine my-5">
 
             <ul className="flex justify-around">
                 <li className="text-jasmine">Stack &gt; </li>
                 <li>.MERN</li>
                 <li>.Front</li>
-                <li>.back</li>
+                <li>.Back</li>
                 <li>.Database</li>
-                <li>.library</li>
+                <li>.Library</li>
             </ul>
 
   </div>

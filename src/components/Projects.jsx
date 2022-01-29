@@ -6,12 +6,14 @@ import ProjectList from './ProjectList'
 
 
 const Projects = () => {
+   
+    
   return (
   
-    <div className="Projects component  mr-6 md:mr-16 ml-6 m mt-20 md:mt-52  lg:ml-40">
+    <div className="Projects mr-6 md:mr-16 ml-6 m mt-20 md:mt-52  lg:ml-40">
 
         <h1 className="hOne"> &#60; Projects /&gt; </h1>
-        <SideBarOne/>
+        <SideBarOne height={'2411px'}/>
         <div className="lg:flex">
             <div className="msg  lg:ml-24  lg:w-1/2 mt-10">
                 <p className="bodyOne  mt-5">
