@@ -10,10 +10,7 @@ const ProjectList = () => {
 
         <ProjectItem/>
         <ProjectItem/>
-        <ProjectItem/>
-        <ProjectItem/>
-        <ProjectItem/>
-        <ProjectItem/>
+        
     </div>
     
 

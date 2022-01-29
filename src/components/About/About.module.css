@@ -1,16 +1,27 @@
 .myPic{
-    background-image: url('../../assets/myPic.JPG');
+    /* background-image: url('../../assets/myPic.JPG');
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     width:13.43rem;
     height:13.56rem;
+    border: 1px solid;
 
     
     box-shadow: 10px 10px #DAB0F4;
   }
 
-  @media only screen and (min-width:500px){
+  @media only screen and (min-width:768px){
+
+    .myPic {
+        width:20rem;
+        height:30rem;
+
+       
+    }
+      
+  }
+  @media only screen and (min-width:1024px){
 
     .myPic {
         width:32.62rem;

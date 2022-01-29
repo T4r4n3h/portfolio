@@ -1,20 +1,29 @@
 import React from 'react';
-import About from './components/About/About';
-import Projects from './components/Projects'
+
+
 
 //components
 import Header from './components/Header';
+import About from './components/About/About';
+import Projects from './components/Projects'
 import Contact from './components/Contact';
+// import Test from './components/Test';
 
 
 const App = () => {
   return (
-    <div className="container mx-auto">
+    <div 
+    className="container mx-auto  sm:mt-1 md:mt-4  
+    border border-peach rounded-2xl">
       <Header />
       <About />
+    
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
 
+
+
+{/* <Test /> */}
 
       </div>
   );

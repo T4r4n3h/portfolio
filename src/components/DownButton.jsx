@@ -2,8 +2,9 @@ import React from 'react';
 
 const DownButton = () => {
   return (
-    <div className="animscroll">
-        <div className="arrow  w-24 h-28 ml-64 md:mt-36 ">
+      <>
+   
+        <div className="arrow  w-24 h-28 ml-64 md:mt-36 border">
                 <div className="dnarorng ml-10  w-5">
                     <div className="dots w-2.5 h-13 justify-between ml-1.5 pt-2">
                         <div className="bg-peach w-2.5 h-2.5 mb-2 rounded-full"></div>
@@ -21,9 +22,10 @@ const DownButton = () => {
                 </div>
 
 
-            </div>
+           
     </div>
 
+      </>
 
 
 

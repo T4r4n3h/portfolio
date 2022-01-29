@@ -4,11 +4,23 @@ import React from 'react';
 import NavBar from './NavBar'
 import NavMbl from './NavMbl';
 const Header = () => {
-  return <div className="bg-eggplant md:bg-bgdrk h-20 pt-6 container text-jasmine">
+  return( 
+  <div className="
+  component
+  bg-eggplant relative md:bg-bgdrk
+
+  h-20 text-jasmine
+  flex items-center
+  
+  ">
        
       <NavBar/>
-      {/* <NavMbl/> */}
-  </div>;
+     
+  </div>
+  
+  
+  
+  );
 };
 
 export default Header;

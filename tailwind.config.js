@@ -21,8 +21,27 @@ module.exports = {
       violet:'#8b5cf6',
       cyan:'#22d3ee',
       green:'#4ade80',
-      
-      
+     indigo:{
+       100:'#e0e7ff',
+       200:'#c7d2fe',
+       500:'#6366f1'
+     },
+     teal:{
+       100:'#f0fdfa',
+       200:'#99f6e4',
+       500:'#5eead4',
+     }, 
+     lime:{
+       50:'#f7fee7',
+       200:'#d9f99d',
+       300:'#bef264',
+       400:'#a3e635',
+     }, 
+     pink:{
+       50:'#fce7f3',
+       100:'#f9a8d4',
+       200:'#f472b6',
+     }, 
     },
     extend: {
      

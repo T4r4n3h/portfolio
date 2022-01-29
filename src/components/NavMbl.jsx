@@ -1,35 +1,56 @@
-import React,{useState} from 'react';
-import {Link} from 'react-scroll';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import {motion} from "framer-motion";
 
-const NavMbl = () => {
-    // const[disp, setDesp] = useState('hidden')
+const NavMbl = (props) => {
   return (
-  <div className=" bg-eggplant w-52  h-96 ml-auto text-right font-medium pr-6"
-  style={{boxShadow:' -5px 5px #8A70FF'}}
-  >
-
-      <ul className=" mt-6 pt-3">
-          <li className="my-7">
-              <Link>Home &#60; </Link>
-          </li>
-          <li className="my-7">
-              <Link>About &#60;</Link>
-          </li>
-          <li className="my-7">
-              <Link>Projects &#60;</Link>
-          </li>
-          <li className="my-7">
-              <Link>CV &#60;</Link>
-          </li>
-          <li className="my-7">
-              <Link>Blog &#60;</Link>
-          </li>
-      </ul>
-   
-   
+    <motion.div
+    // initial={{ x: '-100vw' }}
+    // animate={{ x: 0 }}
     
+    // transition={{ type: 'spring', stiffness: 120 }}
 
-  </div>
+      className={props.showMenu}
+      style={{ boxShadow: " -5px 5px #8A70FF", zIndex: "1" }}
+    >
+      <ul className=" mt-6 pt-3">
+        <li className="my-7">
+          <Link to="/">Home &#60; </Link>
+        </li>
+        <li className="my-7">
+          <Link to="/">About &#60;</Link>
+        </li>
+        <li className="my-7">
+          <Link to="/">Projects &#60;</Link>
+        </li>
+        <li className="my-7">
+          <Link to="/">CV &#60;</Link>
+        </li>
+        <li className="my-7">
+          <Link to="/">Blog &#60;</Link>
+        </li>
+      </ul>
+
+      <button
+        onClick={props.hideMenu}
+        className="w-full text-lavender text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-10 w-10 ml-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+    </motion.div>
   );
 };
 
