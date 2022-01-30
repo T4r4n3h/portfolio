@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 
 
 //components
@@ -14,9 +14,12 @@ const App = () => {
   return (
     <div 
     className="container mx-auto  sm:mt-1 md:mt-4">
+      
+      
+      
+      
       <Header />
       <About />
-    
       <Projects />
       <Contact />
 

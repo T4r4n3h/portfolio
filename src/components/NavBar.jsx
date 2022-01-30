@@ -1,33 +1,27 @@
-import React,{useState} from 'react';
-import {Link} from 'react-scroll'
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
-import Logo from '../assets/Logo-jasmine.png';
-import NavMbl from './NavMbl';
-
-
-
+import Logo from "../assets/Logo-jasmine.png";
+import NavMbl from "./NavMbl";
 
 const NavBar = () => {
-
-  const[menuClass, setMenuClass] = useState('hide')
-  const[burger, setBurger] = useState('show')
-  const[drop, setDrop] = useState('hide')
+  const [menuClass, setMenuClass] = useState("hide");
+  const [burger, setBurger] = useState("show");
+  const [drop, setDrop] = useState("hide");
 
   const hideMenu = () => {
-    console.log('you are clicking on back button')
-    setMenuClass('hide');
-    setBurger('show');
-    setDrop('hide');
-  }
+    console.log("you are clicking on back button");
+    setMenuClass("hide");
+    setBurger("show");
+    setDrop("hide");
+  };
 
-  const showMenu = () =>{
-   console.log('this is to show')
-    setMenuClass('showMenu');
-    setBurger('hide');
-    setDrop('');
-
-  }
-
+  const showMenu = () => {
+    console.log("this is to show");
+    setMenuClass("showMenu");
+    setBurger("hide");
+    setDrop("");
+  };
 
   return (
     <div className="flex justify-between  items-center w-full mx-6 md:mx-16">
@@ -40,23 +34,21 @@ const NavBar = () => {
             <Link to="/"> &gt; Home</Link>
           </li>
           <li className="mx-3">
-            <Link to="/about"> &gt; About</Link>
+            <Link to="About" smooth="true" duration={1000}> &gt; About</Link>
           </li>
           <li className="mx-3">
-            <Link to="/projects"> &gt; Projects</Link>
+            <Link to="Projects" smooth="true" duration={1000}> &gt; Projects</Link>
           </li>
           <li className="mx-3">
-            <Link to="/CV"> &gt; CV</Link>
+            <Link to="Contact" smooth="true" duration={1000}> &gt; Contact Me</Link>
           </li>
-          <li className="ml-3">
+          {/* <li className="ml-3">
             <Link to="/blog"> &gt; Blog</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="md:hidden">
-        <button 
-        className="" 
-        onClick={showMenu}>
+        <button className="" onClick={showMenu}>
           <svg
             className={burger}
             width="24"
@@ -130,7 +122,7 @@ const NavBar = () => {
           </svg>
         </button>
 
-        <NavMbl showMenu={menuClass} hideMenu={hideMenu}/>
+        <NavMbl showMenu={menuClass} hideMenu={hideMenu} />
       </div>
     </div>
   );

@@ -6,11 +6,9 @@ const Header = () => {
   return( 
   <div className="
   
-  bg-eggplant relative md:bg-bgdrk
+  bg-eggplant md:bg-bgdrk
   h-20 text-jasmine
-  flex items-center
-  
-  ">
+  flex items-center  ">
        
       <NavBar/>
      

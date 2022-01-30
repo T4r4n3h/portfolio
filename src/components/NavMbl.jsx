@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const NavMbl = (props) => {
   return (
     <motion.div
-    // initial={{ x: '-100vw' }}
-    // animate={{ x: 0 }}
-    
-    // transition={{ type: 'spring', stiffness: 120 }}
+      // initial={{ x: '-100vw' }}
+      // animate={{ x: 0 }}
+
+      // transition={{ type: 'spring', stiffness: 120 }}
 
       className={props.showMenu}
       style={{ boxShadow: " -5px 5px #8A70FF", zIndex: "1" }}
@@ -18,17 +18,17 @@ const NavMbl = (props) => {
           <Link to="/">Home &#60; </Link>
         </li>
         <li className="my-7">
-          <Link to="/">About &#60;</Link>
+          <Link to="About">About &#60;</Link>
         </li>
         <li className="my-7">
-          <Link to="/">Projects &#60;</Link>
+          <Link to="Projects">Projects &#60;</Link>
         </li>
         <li className="my-7">
-          <Link to="/">CV &#60;</Link>
+          <Link to="Contact">Contact Me &#60;</Link>
         </li>
-        <li className="my-7">
+        {/* <li className="my-7">
           <Link to="/">Blog &#60;</Link>
-        </li>
+        </li> */}
       </ul>
 
       <button

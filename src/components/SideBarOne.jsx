@@ -12,7 +12,8 @@ const SideBarOne = (props) => {
         //    position:'absolute',
         //    background:''
         //  }}
-         className=" bar h-[3200px] ml-px w-px bg-lavender absolute"></div>
+         className=" bar h-[3200px] ml-px w-px bg-lavender absolute"
+         ></div>
     </div>
     
     

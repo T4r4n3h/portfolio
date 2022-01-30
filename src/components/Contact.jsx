@@ -4,7 +4,7 @@ import Logo from "../assets/Logo-peach.png";
 
 const Contact = () => {
   return (
-    <div className="Contact Component  mt-20 md:mt-52 md:ml-64">
+    <div id="Contact" className="Contact Component  mt-20 md:mt-52 md:ml-64">
       <h1 className="hOne"> &#60; Contact /&gt; </h1>
       <SideBarOne />
       <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20">

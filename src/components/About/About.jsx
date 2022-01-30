@@ -10,7 +10,7 @@ const About = () => {
   
 
   return (
-    <div className="  Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
+    <div id="About" className="  Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
       <motion.div
         initial={{ x: "-100vw" }}
         animate={{ x: "0" }}
