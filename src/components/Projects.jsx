@@ -3,10 +3,11 @@ import DownButton from './DownButton';
 import FeatureProject from './FeatureProject';
 import SideBarOne from './SideBarOne';
 import ProjectList from './ProjectList'
-
+// import useFetch from '../../src/useFetch';
 
 const Projects = () => {
    
+    // const {data:projects, isPending, error} = useFetch(' http://localhost:8000/projects');
     
   return (
   
@@ -26,8 +27,10 @@ const Projects = () => {
         </div>
         <FeatureProject/>
 
-        <ProjectList/>
-
+       {/* {projects &&  <ProjectList 
+         projects={projects}
+         />} */}
+            <ProjectList/>
 
     </div>
     

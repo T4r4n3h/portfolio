@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Stack = () => {
+const Stack = (props) => {
   return (
   
   
@@ -8,11 +8,12 @@ const Stack = () => {
 
             <ul className="flex justify-around">
                 <li className="text-jasmine">Stack &gt; </li>
-                <li>.MERN</li>
-                <li>.Front</li>
-                <li>.Back</li>
-                <li>.Database</li>
-                <li>.Library</li>
+                <li>{props.language}</li>
+                <li>{props.frontend}</li>
+                <li>{props.backend}</li>
+                <li>{props.database}</li>
+                <li>{props.other}</li>
+                
             </ul>
 
   </div>
