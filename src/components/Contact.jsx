@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div id="Contact" className="Contact Component  mt-20 md:mt-52 md:ml-64">
       <h1 className="hOne"> &#60; Contact /&gt; </h1>
-      <SideBarOne />
+      <SideBarOne height={'2000px'}/>
       <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20">
         <div className="left md:w-128">
           <p className="text-iris leading-8 text-lg font-medium md:text-2xl md:leading-10  ">

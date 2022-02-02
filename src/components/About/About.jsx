@@ -19,7 +19,7 @@ const About = () => {
       >
         <h1 className="hOne"> &#60; About Me /&gt; </h1>
 
-        <SideBarOne height={'3200px'}/>
+        <SideBarOne height={'3500px'}/>
         <p className="bodyTwo  mt-6  md:mt-10 lg:ml-24 mb-3">
           Hi, I'm
           <span className="text-tangerine"> &#123;</span>
