@@ -11,7 +11,7 @@ const Projects = () => {
     
   return (
   
-    <div id="Projects" className="Projects border  mr-6 md:mr-16 ml-6 m mt-20 md:mt-52  lg:ml-40">
+    <div id="Projects" className="Projects  mr-6 md:mr-16 ml-6 m mt-20 md:mt-52  lg:ml-40">
 
         <h1 className="hOne"> &#60; Projects /&gt; </h1>
         <SideBarOne height={'2611px'}/>
