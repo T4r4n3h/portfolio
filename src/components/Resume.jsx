@@ -1,29 +1,30 @@
-import React, { useState }from 'react';
-// Import the main component
-import { Viewer } from '@react-pdf-viewer/core';
+// import React, {useState} from 'react';
+// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+// import myResume from '../assets/pdf/myResume.pdf';
+// const Resume = () => {
+//     const [numPages, setNumPages] = useState(null);
+//     const [pageNumber, setPageNumber] = useState(1);
 
-// Import the styles
-import '@react-pdf-viewer/core/lib/styles/index.css';
-
-import MyResume from '../assets/pdf/T.Saleh-Resume-Final.pdf';
-
-
-import { Worker } from '@react-pdf-viewer/core';
+//     function onDocumentLoadSuccess({ numPages }) {
+//         setNumPages(numPages);
+//         setPageNumber(1);
+//       }
 
 
-const Resume = () => {
-  return (
-       
-            <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.12.313/build/pdf.worker.min.js">
-       <div className="Resume w-screen h-screen overflow-auto bg-jasmine flex align-center justify-center"> 
- 
-            <Viewer fileUrl= "../assets/pdf/T.Saleh-Resume-Final.pdf" />
-  
-        </div>
-</Worker>
-    
-    
-    );
-};
 
-export default Resume;
+//   return (
+//         <div className="resume">
+//             <Document
+//         file={myResume}
+//         onLoadSuccess={onDocumentLoadSuccess}
+//       >
+//         <Page height="600" pageNumber={pageNumber} />
+//       </Document>
+//       <p>Page {pageNumber} of {numPages}</p>
+
+//         </div>
+
+// );
+// };
+
+// export default Resume;

@@ -8,7 +8,7 @@ const Contact = () => {
     <div id="Contact" className="Contact Component  mt-20 md:mt-52 md:ml-64 ">
       <h1 className="hOne"> &#60; Contact /&gt; </h1>
       <SideBarOne height={'2000px'}/>
-      <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20">
+      <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20 ">
         <div className="left md:w-128 ">
           <p className="text-iris leading-8 text-lg font-medium md:text-2xl md:leading-10  ">
             Let's
@@ -57,9 +57,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="right md:h-32 md:w-[359px] md:my-24  border-4 flex items-center">
-        <div className="svgs  ">
+        <div className="right md:h-32 md:w-[359px] md:my-24   flex items-center">
+        <div className="svgs">
           <motion.svg
+          className="1 absolute mt-[-50px]"
         
           animate={{
             rotateX: [0,-180,-180, 0, 0],
@@ -68,7 +69,6 @@ const Contact = () => {
           }}
 
           transition={{repeat:Infinity, duration:3, ease:'easeInOut'}}
-            className="1 absolute mt-[-50px]"
 
             width="127"
             height="68"
@@ -85,7 +85,7 @@ const Contact = () => {
             className="2 absolute -z-10  mt-[-30px]"
          
            animate={{
-            // rotateY: [180, 0, 0, 180, 180],
+            rotateX: [0, -180, -180, 0, 0],
              y:[12, 0, 0, 12,12]
              
            }}
@@ -121,13 +121,11 @@ const Contact = () => {
             />
           </motion.svg>
           <motion.svg
-           className="4  absolute -z-30 mt-[20px]"
+           className="4  absolute -z-30 mt-[10px]"
          
             animate={{
-              // rotateX: [180, 0, 0, 180, 180],
-              
-  
-              //  y:[-22, 0, 0, -22,-22]
+              rotateX: [0,-180,-180, 0, 0],
+              y:[-10, 0, 0, -10,-10]
                
              }}
              transition={{repeat:Infinity, duration:3, ease:'easeInOut'}}
@@ -146,7 +144,7 @@ const Contact = () => {
           </motion.svg>
         </div>
         <motion.h1
-          className="border text-right ml-40"
+          className="text-right ml-40 mt-10"
           style={{
             fontFamily: "fira mono, monospace",
             fontSize: "36px",
