@@ -7,7 +7,12 @@ import myPic from "../../assets/myPic.png";
 const About = () => {
 
   
-  
+  const ResumeLink = (
+
+    // <iframe src="https://drive.google.com/file/d/15eHtJqDQNyDsxO_MPPRf_Lc08aGEKXRp/view?usp=sharing" frameborder="0"></iframe>
+    <a className ="resume-button" href="https://drive.google.com/file/d/15eHtJqDQNyDsxO_MPPRf_Lc08aGEKXRp/view?usp=sharing" target ="_blank" rel="noopener noreferred">Resume</a>
+
+  );
 
   return (
     <div id="About" className="  Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
@@ -47,7 +52,10 @@ const About = () => {
 
         <div className="ResumeComponent lg:ml-44 btnbck bg-lavender hover:bg-bgdrk text-jasmine text-center  w-28 h-11 rotate-[-17deg] mt-16 mb-2">
           <div className="btnframe border-4 border-peach w-32 h-11 flex rotate-[17deg] hover:bg-lavender origin-top-left">
-            <button className=" place-items-center mx-auto">Resume</button>
+            <button className=" place-items-center mx-auto">
+              {ResumeLink}
+              {/* Resume */}
+            </button>
           </div>
         </div>
       </motion.div>
