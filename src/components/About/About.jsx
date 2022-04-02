@@ -10,7 +10,7 @@ const About = () => {
   const ResumeLink = (
 
     // <iframe src="https://drive.google.com/file/d/15eHtJqDQNyDsxO_MPPRf_Lc08aGEKXRp/view?usp=sharing" frameborder="0"></iframe>
-    <a className ="resume-button" href="https://drive.google.com/file/d/15eHtJqDQNyDsxO_MPPRf_Lc08aGEKXRp/view?usp=sharing" target ="_blank" rel="noopener noreferred">Resume</a>
+    <a className ="resume-button" href="https://drive.google.com/file/d/14FxeGs2-O1eotgbck07qaFox892iFFNL/view?usp=sharing" target ="_blank" rel="noopener noreferred">Resume</a>
 
   );
 
@@ -24,7 +24,7 @@ const About = () => {
       >
         <h1 className="hOne"> &#60; About Me /&gt; </h1>
 
-        <SideBarOne height={'3500px'}/>
+        <SideBarOne height={'3300px'}/>
         <p className="bodyTwo  mt-6  md:mt-10 lg:ml-24 mb-3">
           Hi, I'm
           <span className="text-tangerine"> &#123;</span>
@@ -40,6 +40,9 @@ const About = () => {
         </p>
         <p className="bodyTwo xl:ml-44">
           <span className="text-iris"> &#62; </span> Creative Coder
+        </p>
+        <p className="bodyTwo xl:ml-44">
+          <span className="text-iris"> &#62; </span> Hackathon Winner 
         </p>
         <p className="bodyOne xl:ml-44 mt-5">
           <span className="text-iris font-medium ">&#62; </span>I am a Full

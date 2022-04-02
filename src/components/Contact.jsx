@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <div id="Contact" className="Contact Component  mt-20 md:mt-52 md:ml-64 ">
       <h1 className="hOne"> &#60; Contact /&gt; </h1>
-      <SideBarOne height={'2000px'}/>
-      <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20 ">
-        <div className="left md:w-128 ">
+      <SideBarOne height={'478px'}/>
+      <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20">
+        <div className="left md:w-128  mr-52">
           <p className="text-iris leading-8 text-lg font-medium md:text-2xl md:leading-10  ">
             Let's
             <span className="text-tangerine"> &#123; Get In Touch &#125;</span>
@@ -149,10 +149,10 @@ const Contact = () => {
             fontFamily: "fira mono, monospace",
             fontSize: "36px",
           }}
-          animate={{
-            color:['#FE9881','#8A70FF','#FEC5B9', '#FEC5B9','#FE9881'  ]
-          }}
-          transition={{repeat:Infinity, duration:3, ease:'easeInOut'}}
+          // animate={{
+          //   color:['#FE9881','#8A70FF','#FEC5B9', '#FEC5B9','#FE9881'  ]
+          // }}
+          // transition={{repeat:Infinity, duration:3, ease:'easeInOut'}}
 
           
         >

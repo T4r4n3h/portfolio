@@ -14,15 +14,31 @@ const FeatureProject = () => {
         <h2 className="bodyTwo"> &#60; INNERTUNER /&gt;</h2>
         <p className="bodyOne  mt-5">
           <span className="text-iris font-medium ">&#62; </span>
-          this is InnerTuner Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Blanditiis exercitationem facilis explicabo? Velit, doloremque
-          consequatur soluta eligendi iusto omnis animi! Sapiente praesentium
-          maxime quam ipsa cupiditate quae aperiam laboriosam ratione.
+         This app is to help maintain a healthy lifestyle by incorporating good habits. InnerTuner will let the user keep track of the water intake and exercise for the week and recorder the progress the day and also keep track of the mood change through out the week.  
         </p>
 
-        <Stack />
+        <div className=" STACK Stack text-tangerine my-5">
 
-        <button className=" btn mt-8">Learn More &gt;</button>
+<ul className="flex justify-around">
+    <li className="text-jasmine">Stack &gt; </li>
+    <li>JavaScript</li>
+    <li>React.js</li>
+    <li>Express</li>
+    <li>Node.js</li>
+    <li>MongoDB</li>
+    <li>Tailwindcss</li>
+    
+</ul>
+
+</div>
+
+        <button className=" btn mt-8">
+          <a href="https://innertuner.herokuapp.com/" target="_blank">
+
+          Check it Out &gt;
+          </a>
+        
+        </button>
       </div>
 
       <div className="hidden lg:inline-block z-10 ProjectPic  w-96 h-[812px]  rounded-2xl ml-10 mt-[-210px]"
