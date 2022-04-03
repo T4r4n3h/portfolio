@@ -16,11 +16,12 @@ const Contact = () => {
           </p>
           <p className=" text-jasmine font-light leading-8  text-base md:text-2xl md:leading-10 mt-8">
             <span className="text-iris font-medium ">&#62; </span>
-            please send mem a message and i will get back to you as soon
+            I would love to hear from you and my inbox is always open. Whether you have a question or just want to say hi, I will get back to you! 
           </p>
 
           <button className="border-[3px] text-peach text-xl p-4 mt-10">
-            Send me an email &gt;
+            <a href="mailto:taraneh.saleh@gmail.com?subject=Sayin Hi">Say Hello &gt;</a>
+
           </button>
 
           <div className="social  text-jasmine flex  justify-between w-24 h-10 mt-8">
