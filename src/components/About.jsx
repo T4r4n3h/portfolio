@@ -1,18 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "./About.module.css";
-import SideBarOne from "../SideBarOne";
-import myPic from "../../assets/myPic.png";
-
+import SideBarOne from "./SideBarOne";
+import myPic from "../myPic.png";
+import pdf from '../resume.pdf'
 const About = () => {
 
   
-  const ResumeLink = (
 
-    // <iframe src="https://drive.google.com/file/d/15eHtJqDQNyDsxO_MPPRf_Lc08aGEKXRp/view?usp=sharing" frameborder="0"></iframe>
-    <a className ="resume-button" href="https://drive.google.com/file/d/14FxeGs2-O1eotgbck07qaFox892iFFNL/view?usp=sharing" target ="_blank" rel="noopener noreferred">Resume</a>
 
-  );
 
   return (
     <div id="About" className="  Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
@@ -56,8 +52,11 @@ const About = () => {
         <div className="ResumeComponent lg:ml-44 btnbck bg-lavender hover:bg-bgdrk text-jasmine text-center  w-28 h-11 rotate-[-17deg] mt-16 mb-2">
           <div className="btnframe border-4 border-peach w-32 h-11 flex rotate-[17deg] hover:bg-lavender origin-top-left">
             <button className=" place-items-center mx-auto">
-              {ResumeLink}
-              {/* Resume */}
+             
+              <a href={pdf} target="_blank" rel="noreferrer" className="">
+              Resume
+            </a>
+
             </button>
           </div>
         </div>

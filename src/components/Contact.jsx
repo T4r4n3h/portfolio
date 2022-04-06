@@ -1,6 +1,6 @@
 import React from "react";
 import SideBarOne from "./SideBarOne";
-import Logo from "../assets/Logo-peach.png";
+import Logo from "../Logo-peach.png";
 import { motion } from "framer-motion";
 
 const Contact = () => {

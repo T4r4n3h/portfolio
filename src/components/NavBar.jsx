@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 
-import Logo from "../assets/Logo-jasmine.png";
+import Logo from "../Logo-jasmine.png";
 import NavMbl from "./NavMbl";
 
 const NavBar = () => {

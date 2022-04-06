@@ -71,7 +71,7 @@ const ProjectList = () => {
       "stack":{
         "language":"javascript",
         "frontend":"Html",
-        "backend":" - ",
+        "backend":" CSS ",
         "database":" -"
       },
       'link':"",

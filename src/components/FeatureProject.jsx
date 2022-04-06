@@ -1,6 +1,6 @@
 import React from "react";
 import Stack from "./Stack";
-import Background from '../../src/assets/innertuner.png'
+import Background from '../innertuner.png'
 import FeatureMbl from "./FeatureMbl";
 const FeatureProject = () => {
   return (
