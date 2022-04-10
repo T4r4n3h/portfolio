@@ -7,7 +7,7 @@ const Stack = (props) => {
   <div className="Stack text-tangerine my-5">
 
             <ul className="flex justify-around">
-                <li className="text-jasmine">Stack &gt; </li>
+                {/* <li className="text-jasmine">Stack &gt; </li> */}
                 <li>{props.language}</li>
                 <li>{props.frontend}</li>
                 <li>{props.backend}</li>

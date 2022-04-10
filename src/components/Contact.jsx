@@ -1,13 +1,14 @@
 import React from "react";
 import SideBarOne from "./SideBarOne";
 import Logo from "../Logo-peach.png";
+import MbLogo from "../Logo-mb.png"
 import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div id="Contact" className="Contact Component  mt-20 md:mt-52 md:ml-64 ">
+    <div id="Contact" className="Contact Component  mx-6 mt-20 md:mt-52 md:ml-64 ">
       <h1 className="hOne"> &#60; Contact /&gt; </h1>
-      <SideBarOne height={'678px'}/>
+      <SideBarOne height={'578px'}/>
       <div className="main md:flex  md:ml-10 md:mr-36 md:mt-20">
         <div className="left md:w-128  mr-52">
           <p className="text-iris leading-8 text-lg font-medium md:text-2xl md:leading-10  ">
@@ -19,8 +20,8 @@ const Contact = () => {
             I would love to hear from you and my inbox is always open. Whether you have a question or just want to say hi, I will get back to you! 
           </p>
 
-          <button className="border-[3px] text-peach text-xl p-4 mt-10">
-            <a href="mailto:taraneh.saleh@gmail.com?subject=Sayin Hi">Say Hello &gt;</a>
+          <button className="border-[3px] border-tangerine text-peach text-xl p-4 mt-10">
+            <a href="mailto:taraneh.saleh@gmail.com?subject=Sayin Hi">Send me an email &gt;</a>
 
           </button>
 
@@ -62,13 +63,13 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="right md:h-32 md:w-[359px] md:my-24  flex items-center">
+        <div className="hidden lg:flex right md:h-32 md:w-[359px] md:my-24   items-center">
         <div className="svgs ">
           <motion.svg
           className="1 absolute mt-[-50px]"
         
           animate={{
-            rotateX: [0,-180,-180, 0, 0],
+            rotateX: [0,360,360, 0, 0],
             y:[22, 0, 0, 22,22]
             
           }}
@@ -86,11 +87,13 @@ const Contact = () => {
               fill="#DEC4F4"
             />
           </motion.svg>
+
+
           <motion.svg
             className="2 absolute -z-10  mt-[-30px]"
          
            animate={{
-            rotateX: [0, -180, -180, 0, 0],
+            rotateX: [0, 360,360, 0, 0],
              y:[12, 0, 0, 12,12]
              
            }}
@@ -109,7 +112,7 @@ const Contact = () => {
           <motion.svg
             className="3  absolute  mt-[-10px] -z-20"
             animate={{
-              rotateX: [0,-180,-180, 0, 0],
+              rotateX: [0, 360,360, 0, 0],
                y:[2, 0, 0, 2,2]
                
              }}
@@ -129,7 +132,7 @@ const Contact = () => {
            className="4  absolute -z-30 mt-[10px]"
          
             animate={{
-              rotateX: [0,-180,-180, 0, 0],
+              rotateX: [0,360,360, 0, 0],
               y:[-10, 0, 0, -10,-10]
                
              }}
@@ -149,10 +152,11 @@ const Contact = () => {
           </motion.svg>
         </div>
         <motion.h1
-          className="text-right ml-40 mt-10"
+          className="text-right text-peach ml-40 mt-10 "
           style={{
             fontFamily: "fira mono, monospace",
             fontSize: "36px",
+            fontWeight: "bold"
           }}
           // animate={{
           //   color:['#FE9881','#8A70FF','#FEC5B9', '#FEC5B9','#FE9881'  ]
@@ -165,6 +169,12 @@ const Contact = () => {
         </motion.h1>
       </div>
       </div>
+      <div className="md:hidden mx-auto mt-10">
+        <img className="mx-auto" src={MbLogo} alt="" />
+      </div>
+
+
+
     </div>
   );
 };

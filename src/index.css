@@ -32,3 +32,4 @@ body{
 .btn{
     @apply border-2 border-peach w-40 h-14 font-semibold text-tangerine  hover:text-lavender hover:bg-peach
 }
+

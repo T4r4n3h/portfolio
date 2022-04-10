@@ -3,13 +3,11 @@ import { motion } from "framer-motion";
 import styles from "./About.module.css";
 import SideBarOne from "./SideBarOne";
 import myPic from "../myPic.png";
-import pdf from '../resume.pdf'
+import pdf from '../resume.pdf';
+
+
+
 const About = () => {
-
-  
-
-
-
   return (
     <div id="About" className="  Hero mx-6 md:mx-16 mt-6 lg:mt-32 md:flex justify-between ">
       <motion.div
@@ -20,7 +18,7 @@ const About = () => {
       >
         <h1 className="hOne"> &#60; About Me /&gt; </h1>
 
-        <SideBarOne height={'3500px'}/>
+        <SideBarOne height={'3700px'}/>
         <p className="bodyTwo  mt-6  md:mt-10 lg:ml-24 mb-3">
           Hi, I'm
           <span className="text-tangerine"> &#123;</span>

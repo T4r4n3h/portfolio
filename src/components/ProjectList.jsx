@@ -15,6 +15,7 @@ const ProjectList = () => {
     //   "id": 1,
     //   "title": "InnerTuner",
     //   "description": "This app i s built for users who are looking to incorporate and track their daily routine. Is will allow the user to track and monitor their sleep, exercise and water intake.",
+    //    "url":"https://innertuner.herokuapp.com/",
     //   "stack":{
     //       "language":"Javascript",
     //       "frontend":"React",
@@ -29,11 +30,12 @@ const ProjectList = () => {
       "id": 2,
       "title": "We Chat2",
       "description": "This is mock up of a chat application that allows the users to have one on one chats as well as being apart of a chat channel",
+      "url":"https://we2chat.herokuapp.com",
       "stack":{
-        "language":"Python",
-        "frontend":"django",
-        "backend":"django",
-        "database":"Postgres"
+        "language":".Python",
+        "frontend":".django",
+        "backend":".django",
+        "database":".Postgres"
       },
       'link':"",
       "contributors":[ "Marc Daniel", "Eric Chan"]
@@ -42,11 +44,12 @@ const ProjectList = () => {
       "id": 3,
       "title": "City Collection",
       "description": "This app will allow users to make a picture collection of the cities they have visisted and make comments and write about their experience, make recommendations and share their experience with friends.",
+      "url":"",
       "stack":{
-        "language":"Python",
-        "frontend":"Django",
-        "backend":"Django",
-        "database":"Postgres"
+        "language":".Python",
+        "frontend":".Django",
+        "backend":".Django",
+        "database":".Postgres"
       },
       'link':"",
       "contributors":[]
@@ -55,10 +58,11 @@ const ProjectList = () => {
       "id": 4,
       "title": "We Sell",
       "description": "This is a mockup of a simple E-commerce site. where customers can look at products, write reviews and add items to their baskets",
+      "url":"",
       "stack":{
-        "language":"javascript",
-        "frontend":"Express",
-        "backend":"Express",
+        "language":" .JavaScript",
+        "frontend":".Express",
+        "backend":".Express",
         "database":"MongoDB"
       },
       'link':"",
@@ -68,10 +72,11 @@ const ProjectList = () => {
       "id": 5,
       "title": "Mancala",
       "description": "This is a simple game of Mancala. It is a 2 player game where each player's goal is to collect the most amount of stones in their Mancala.",
+      "url":"https://t4r4n3h.github.io/Mancala/",
       "stack":{
-        "language":"javascript",
-        "frontend":"Html",
-        "backend":" CSS ",
+        "language":".JavaScript",
+        "frontend":".Html",
+        "backend":" .CSS ",
         "database":" -"
       },
       'link':"",
@@ -81,9 +86,10 @@ const ProjectList = () => {
       "id": 6,
       "title": "Tic Tac Toe",
       "description": "This is the first web game I built. the simple game of Tic Tac Toe",
+      "url":" https://t4r4n3h.github.io/TicTacToe/",
       "stack":{
-        "language":"javascript",
-        "frontend":"Html",
+        "language":".JavaScript",
+        "frontend":".Html",
         "backend":"-",
         "database":"-"
       },
@@ -101,7 +107,7 @@ const ProjectList = () => {
     <div className="projectList md:grid grid-cols-2 gap-10 mt-20 lg:mt-48">
       { projects.map((project) => (
         <ProjectItem 
-        key={project.id} title={project.title} description={project.description} stack={project.stack}
+        key={project.id} title={project.title} description={project.description} stack={project.stack} url={project.url}
         />
       ))}
        
