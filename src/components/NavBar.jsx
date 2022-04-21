@@ -33,8 +33,8 @@ const NavBar = () => {
           <li className="mx-3">
             <Link to="/"> &gt; Home</Link>
           </li>
-          <li className="mx-3>
-            <Link to="About" smooth="true" duration={1000}> &gt; About</Link>
+          <li className="mx-3">
+            <Link to= "About" smooth="true" duration={1000}> &gt; About</Link>
           </li>
           <li className="mx-3">
             <Link to="Projects" smooth="true" duration={1000}> &gt; Projects</Link>
