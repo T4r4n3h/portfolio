@@ -23,7 +23,7 @@ const ProjectList = () => {
     //       "database":"MongoDb",
     //       "Other": "Tailwindcss Library"
     //   },
-    //   'link':"",
+    //  
     //   "contributors":["Jane Lee", "Yousuf Hussain", "Alistair Kin", "Rebecca Lasagna"]
     // },
     {
@@ -37,7 +37,7 @@ const ProjectList = () => {
         "backend":".django",
         "database":".Postgres"
       },
-      'link':"",
+      
       "contributors":[ "Marc Daniel", "Eric Chan"]
     },
     {
@@ -58,14 +58,14 @@ const ProjectList = () => {
       "id": 4,
       "title": "We Sell",
       "description": "This is a mockup of a simple E-commerce site. where customers can look at products, write reviews and add items to their baskets",
-      "url":"",
+      "url":"https://wesellproductsinyourcart.herokuapp.com/",
       "stack":{
         "language":" .JavaScript",
         "frontend":".Express",
         "backend":".Express",
         "database":"MongoDB"
       },
-      'link':"https://wesellproductsinyourcart.herokuapp.com/",
+      
       "contributors":[]
     },
     {
@@ -79,8 +79,7 @@ const ProjectList = () => {
         "backend":" .CSS ",
         "database":" -"
       },
-      'link':"",
-      "contributors":[]
+        "contributors":[]
     },
     {
       "id": 6,
@@ -93,7 +92,7 @@ const ProjectList = () => {
         "backend":"-",
         "database":"-"
       },
-      'link':"",
+   
       "contributors":[]
   }
    ]
