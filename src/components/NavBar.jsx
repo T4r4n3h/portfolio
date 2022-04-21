@@ -29,11 +29,11 @@ const NavBar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="NavLink hidden md:block font-medium ">
-        <ul className="flex">
+        <ul className="flex cursor-pointer">
           <li className="mx-3">
             <Link to="/"> &gt; Home</Link>
           </li>
-          <li className="mx-3">
+          <li className="mx-3>
             <Link to="About" smooth="true" duration={1000}> &gt; About</Link>
           </li>
           <li className="mx-3">
